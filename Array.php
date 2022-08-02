@@ -33,7 +33,7 @@ if ($t < "10") {
 $data = "day";
 
 switch ($data) {
-  case "saturday":
+  case "day":
     echo "its saturday!";
     break;
   case "sunday":
