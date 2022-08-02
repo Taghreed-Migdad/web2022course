@@ -30,19 +30,19 @@ if ($t < "10") {
   echo "Have a good night!";
 }
 
-$favcolor = "red";
+$data = "day";
 
-switch ($favcolor) {
-  case "red":
-    echo "Your favorite color is red!";
+switch ($data) {
+  case "saturday":
+    echo "its saturday!";
     break;
-  case "blue":
-    echo "Your favorite color is blue!";
+  case "sunday":
+    echo "its sunday!";
     break;
-  case "green":
-    echo "Your favorite color is green!";
+  case "monday":
+    echo "its monday!";
     break;
   default:
-    echo "Your favorite color is neither red, blue, nor green!";
+    echo "its weekdays !";
 }
 ?>
