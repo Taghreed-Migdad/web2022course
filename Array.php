@@ -48,26 +48,74 @@
 
 //Loops
 
-for($x=0; $x<=100;$x++){
-  echo "the number is ".$x ."<br>";
-}
-$arr = ["element0","element1","element2","element3",];
-for ($i=0;$i<count($arr);$i++){
-           echo $arr[$i];
-}
-$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+// for($x=0; $x<=100;$x++){
+//   echo "the number is ".$x ."<br>";
+// }
+// $arr = ["element0","element1","element2","element3",];
+// for ($i=0;$i<count($arr);$i++){
+//            echo $arr[$i];
+// }
+// $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
 
-foreach($age as $x => $val) {
-  echo "$x = $val<br>";
+// foreach($age as $x => $val) {
+//   echo "$x = $val<br>";
+// }
+
+// $colors = Array("red","green","blue", "yellow");
+// foreach($colors as $value){
+//   echo "$value "."<br>";
+// }
+// do{
+//   echo "the number is : $x .<br>";
+//   $x++;
+//  } while($x <=5);
+
+//  for($x=1; $x<=10;$x++){
+//   if($x<=10){
+//     echo $x  ;
+//   }if($x<10)
+//   echo "-";
+//   else{
+//   echo "\n";
+//   }
+//  }
+
+//Question 
+
+for($i=0;$i<=5;$i++){  
+  for($j=1;$j<=$i;$j++){  
+  echo "* ";  
+  }  
+  echo "<br>";  
+  }  
+
+for($i=0;$i<=5;$i++){  
+  for($j=5-$i;$j>=1;$j--){  
+  echo "* ";  
+  }  
+  echo "<br>";  
+  }  
+
+for ($x = 1; $x <= 5; $x++) {
+  echo " * ";
+}  echo"<br>";
+for ($x = 0; $x <= 3; $x++) {
+  echo "  &nbsp &nbsp  &nbsp*<br>";
 }
 
-$colors = Array("red","green","blue", "yellow");
-foreach($colors as $value){
-  echo "$value "."<br>";
+$n = 6;
+$x = 1;
+for($i=1;$i<=$n-1;$i++)
+{
+ $x*=($i+1); 
 }
-do{
-  echo "the number is : $x .<br>";
-  $x++;
- } while($x <=5);
+echo "The factorial of  $n = $x"."\n";
 
+
+$a=5;
+while ($a <= 15) {
+  # code...
+  echo " th number ".$a;
+  $a++;
+}
 ?>
