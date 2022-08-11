@@ -82,40 +82,97 @@
 
 //Question 
 
-for($i=0;$i<=5;$i++){  
-  for($j=1;$j<=$i;$j++){  
-  echo "* ";  
-  }  
-  echo "<br>";  
-  }  
+// for($i=0;$i<=5;$i++){  
+//   for($j=1;$j<=$i;$j++){  
+//   echo "* ";  
+//   }  
+//   echo "<br>";  
+//   }  
 
-for($i=0;$i<=5;$i++){  
-  for($j=5-$i;$j>=1;$j--){  
-  echo "* ";  
-  }  
-  echo "<br>";  
-  }  
+// for($i=0;$i<=5;$i++){  
+//   for($j=5-$i;$j>=1;$j--){  
+//   echo "* ";  
+//   }  
+//   echo "<br>";  
+//   }  
 
-for ($x = 1; $x <= 5; $x++) {
-  echo " * ";
-}  echo"<br>";
-for ($x = 0; $x <= 3; $x++) {
-  echo "  &nbsp &nbsp  &nbsp*<br>";
+// for ($x = 1; $x <= 5; $x++) {
+//   echo " * ";
+// }  echo"<br>";
+// for ($x = 0; $x <= 3; $x++) {
+//   echo "  &nbsp &nbsp  &nbsp*<br>";
+// }
+
+// $n = 6;
+// $x = 1;
+// for($i=1;$i<=$n-1;$i++)
+// {
+//  $x*=($i+1); 
+// }
+// echo "The factorial of  $n = $x"."\n";
+
+
+// $a=5;
+// while ($a <= 15) {
+//   # code...
+//   echo " th number ".$a;
+//   $a++;
+// }
+// 
+// prime number function 
+
+// function Isprime($num)
+// {
+//    if ($num == 1)
+//    return 0;
+//    for ($i = 2; $i <= $num/2; $i++)
+//    {
+//       if ($num % $i == 0)
+//       return 0;
+//    }
+//    return 1;
+// }
+// $num = 7;
+// $value = Isprime($num);
+// if ($value == 1)
+//    echo "It is a prime number";
+// else
+//    echo "It is a non-prime number";
+
+
+// function check_palindrome($string) 
+// {
+//   if ($string == strrev($string)){
+//     echo "$string"."  :true , is palindrome"."<br>";
+     
+//     }
+//   else{
+//     echo "$string"."  :false , not palindrom"."<br>";
+	  
+//   }
+// }
+// echo check_palindrome("madam")."\n";
+// echo check_palindrome("122")."\n";
+// echo " *********** <br>";
+
+$Str = "JAVATPOINT";
+$length = strlen($Str);
+for($i=($length-1);$i >=0 ; $i--){
+  echo $Str[$i];
 }
 
-$n = 6;
-$x = 1;
-for($i=1;$i<=$n-1;$i++)
-{
- $x*=($i+1); 
-}
-echo "The factorial of  $n = $x"."\n";
 
-
-$a=5;
-while ($a <= 15) {
-  # code...
-  echo " th number ".$a;
-  $a++;
-}
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
